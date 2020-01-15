@@ -11,10 +11,6 @@ class User extends React.Component {
     }
     componentDidMount() {
         this.getUser.call(this)
-        console.log('did mount')
-    }
-    componentDidUpdate() {
-        console.log('did update')
     }
     render() {
         const { data, isLoaded } = this.state;
