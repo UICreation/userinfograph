@@ -1,7 +1,7 @@
 {
-  "name": "recipes_repeat",
+  "name": "user-infograph",
   "version": "1.0.0",
-  "description": "",
+  "description": "User Infograph data bringing from github public API and render through React Js.",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack"
@@ -12,7 +12,12 @@
       "@babel/preset-react"
     ]
   },
-  "author": "",
+  "author": "Shivam Kumar",
+  "homepage": "https://github.com/UICreation/userinfograph",
+  "bugs": {
+    "url": "https://github.com/UICreation/userinfograph/issues",
+    "email": "shivam.designweb@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.7.7",
